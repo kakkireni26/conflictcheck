@@ -1,0 +1,51 @@
+Microsoft Windows [Version 10.0.26100.3624]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\kakki>git clone https://github.com/kakkireni26/conflictcheck
+fatal: destination path 'conflictcheck' already exists and is not an empty directory.
+
+C:\Users\kakki>cd..
+
+C:\Users>cd..
+
+C:\>D:
+
+D:\>cd downloads
+
+D:\DOWNLOADS>cd Revature
+
+D:\DOWNLOADS\Revature>cd conflictcheck
+
+D:\DOWNLOADS\Revature\conflictcheck>cd..
+
+D:\DOWNLOADS\Revature>git clone https://github.com/kakkireni26/conflictcheck
+fatal: destination path 'conflictcheck' already exists and is not an empty directory.
+
+D:\DOWNLOADS\Revature>cd conflictcheck
+
+D:\DOWNLOADS\Revature\conflictcheck>git clone https://github.com/kakkireni26/conflictcheck
+Cloning into 'conflictcheck'...
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 10 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (10/10), done.
+
+D:\DOWNLOADS\Revature\conflictcheck>git add task.txt
+
+D:\DOWNLOADS\Revature\conflictcheck>git commit -m "task uploaded"
+[main a908f7b] task uploaded
+ 1 file changed, 195 insertions(+)
+ create mode 100644 task.txt
+
+D:\DOWNLOADS\Revature\conflictcheck>git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.49 KiB | 1.49 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/kakkireni26/conflictcheck.git
+   e3236c2..a908f7b  main -> main
+
+D:\DOWNLOADS\Revature\conflictcheck>
