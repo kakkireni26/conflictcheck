@@ -1,0 +1,195 @@
+
+kakki@LAPTOP-T77QA9E9 MINGW64 ~
+$ ls
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{2ad838bc-efea-11ee-a54d-000d3a94eaa1}.TM.blf
+ NTUSER.DAT{2ad838bc-efea-11ee-a54d-000d3a94eaa1}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{2ad838bc-efea-11ee-a54d-000d3a94eaa1}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Untitled1.ipynb
+ Videos/
+ WEb/
+ ansel/
+ battery-report.html
+ git
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ version
+
+kakki@LAPTOP-T77QA9E9 MINGW64 ~
+$ cd downloads
+
+kakki@LAPTOP-T77QA9E9 MINGW64 ~/downloads
+$ mkdir task
+
+kakki@LAPTOP-T77QA9E9 MINGW64 ~/downloads
+$ cd task
+
+kakki@LAPTOP-T77QA9E9 MINGW64 ~/downloads/task
+$ touch name.txt
+
+kakki@LAPTOP-T77QA9E9 MINGW64 ~/downloads/task
+$ echo "Nikhilesh">name.txt
+
+kakki@LAPTOP-T77QA9E9 MINGW64 ~/downloads/task
+$ cat name.txt
+Nikhilesh
+
+kakki@LAPTOP-T77QA9E9 MINGW64 ~/downloads/task
+$ cp name.txt rename.txt
+
+kakki@LAPTOP-T77QA9E9 MINGW64 ~/downloads/task
+$ cat rename.txt
+Nikhilesh
+
+kakki@LAPTOP-T77QA9E9 MINGW64 ~/downloads/task
+$ rm name.txt
+
+kakki@LAPTOP-T77QA9E9 MINGW64 ~/downloads/task
+$ mv rename.txt fullname.txt
+
+kakki@LAPTOP-T77QA9E9 MINGW64 ~/downloads/task
+$ echo "KakKireni">fullname.txt
+
+kakki@LAPTOP-T77QA9E9 MINGW64 ~/downloads/task
+$ cat fullname.txt
+KakKireni
+
+kakki@LAPTOP-T77QA9E9 MINGW64 ~/downloads/task
+$ echo "Nikhilesh Kakkireni">fullname.txt
+
+kakki@LAPTOP-T77QA9E9 MINGW64 ~/downloads/task
+$ cat fullname.txt
+Nikhilesh Kakkireni
+
+kakki@LAPTOP-T77QA9E9 MINGW64 ~/downloads/task
+$ ps
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+     1650    1574    1650      24128  pty0      197609 16:08:54 /usr/bin/ps
+     1573       1    1573      20392  ?         197609 14:45:57 /usr/bin/mintty
+     1574    1573    1574       1560  pty0      197609 14:45:57 /usr/bin/bash
+
+kakki@LAPTOP-T77QA9E9 MINGW64 ~/downloads/task
+$ ps -h
+Usage: ps [-aefls] [-u UID] [-p PID]
+
+Report process status
+
+ -a, --all       show processes of all users
+ -e, --everyone  show processes of all users
+ -f, --full      show process uids, ppids
+ -h, --help      output usage information and exit
+ -l, --long      show process uids, ppids, pgids, winpids
+ -p, --process   show information for specified PID
+ -s, --summary   show process summary
+ -u, --user      list processes owned by UID
+ -V, --version   output version information and exit
+ -W, --windows   show windows as well as cygwin processes
+
+With no options, ps outputs the long format by default
+
+
+kakki@LAPTOP-T77QA9E9 MINGW64 ~/downloads/task
+$ df
+Filesystem           1K-blocks      Used Available Use% Mounted on
+C:/Program Files/Git 249046012 111379596 137666416  45% /
+D:                   420414460   5476376 414938084   2% /d
+E:                   556345340    116752 556228588   1% /e
+
+kakki@LAPTOP-T77QA9E9 MINGW64 ~/downloads/task
+$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+C:/Program Files/Git  238G  107G  132G  45% /
+D:                    401G  5.3G  396G   2% /d
+E:                    531G  115M  531G   1% /e
+
+kakki@LAPTOP-T77QA9E9 MINGW64 ~/downloads/task
+$ wc -w fullname.txt
+2 fullname.txt
+
+kakki@LAPTOP-T77QA9E9 MINGW64 ~/downloads/task
+$ wc -l fullname.txt
+1 fullname.txt
+
+kakki@LAPTOP-T77QA9E9 MINGW64 ~/downloads/task
+$ wc -m fullname.txt
+20 fullname.txt
+
+kakki@LAPTOP-T77QA9E9 MINGW64 ~/downloads/task
+$ sort fullname.txt
+Nikhilesh Kakkireni
+
+kakki@LAPTOP-T77QA9E9 MINGW64 ~/downloads/task
+$ ls
+fullname.txt
+
+kakki@LAPTOP-T77QA9E9 MINGW64 ~/downloads/task
+$ whoami
+kakki
+
+kakki@LAPTOP-T77QA9E9 MINGW64 ~/downloads/task
+$ cat fullname.txt
+Nikhilesh
+
+Hari
+
+Sai
+
+Eswar
+
+Abhinay
+
+Praveen
+
+kakki@LAPTOP-T77QA9E9 MINGW64 ~/downloads/task
+$ sort fullname.txt
+
+
+
+
+
+Abhinay
+Eswar
+Hari
+Nikhilesh
+Praveen
+Sai
+
+kakki@LAPTOP-T77QA9E9 MINGW64 ~/downloads/task
+$ echo "This is first task"
+This is first task
+
+kakki@LAPTOP-T77QA9E9 MINGW64 ~/downloads/task
+$ cat fullname.txt | grep "hi"
+Nikhilesh
+Abhinay
+
+kakki@LAPTOP-T77QA9E9 MINGW64 ~/downloads/task
+$ ps
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+     1573       1    1573      20392  ?         197609 14:45:57 /usr/bin/mintty
+     1574    1573    1574       1560  pty0      197609 14:45:57 /usr/bin/bash
+     1709    1574    1709       6996  pty0      197609 16:35:54 /usr/bin/ps
+
+
